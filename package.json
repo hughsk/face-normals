@@ -1,0 +1,39 @@
+{
+  "name": "mesh-normals",
+  "version": "0.0.0",
+  "description": "Given an array of triangles' vertices, return a `Float32Array` of their normal vectors.",
+  "main": "index.js",
+  "scripts": {
+    "start": "beefy demo.js:bundle.js -- -t brfs",
+    "prepublish": "browserify demo.js -t brfs > bundle.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/hughsk/mesh-normals.git"
+  },
+  "author": "Hugh Kennedy <hughskennedy@gmail.com> (http://hughskennedy.com/)",
+  "license": "MIT",
+  "devDependencies": {
+    "perlin": "~1.0.0",
+    "gl-vao": "0.0.2",
+    "game-shell-orbit-camera": "0.0.0",
+    "zeros": "0.0.0",
+    "gl-buffer": "~0.1.1",
+    "gl-matrix": "~2.0.0",
+    "gl-now": "0.0.4",
+    "gl-shader": "0.0.6",
+    "ndarray-fill": "~0.1.0",
+    "beefy": "~0.4.1",
+    "brfs": "0.0.7",
+    "browserify": "~2.29.1",
+    "heightmap-mesher": "0.0.0"
+  },
+  "keywords": [
+    "3D",
+    "mesh",
+    "normal",
+    "vectors",
+    "geometry",
+    "generation"
+  ]
+}
