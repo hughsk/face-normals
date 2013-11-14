@@ -125,9 +125,9 @@ function perlinify(array, _x, _y) {
 }
 
 },{"./":2,"fs":4,"game-shell-orbit-camera":8,"gl-buffer":10,"gl-matrix":21,"gl-now":22,"gl-shader":34,"gl-vao":51,"heightmap-mesher":52,"ndarray-fill":53,"perlin":62,"zeros":65}],2:[function(require,module,exports){
-module.exports = mesh
+module.exports = faceNormals
 
-function mesh(verts, output) {
+function faceNormals(verts, output) {
   var l = verts.length
   if (!output) output = new Float32Array(l)
 
@@ -6409,6 +6409,7 @@ if (!window.cancelAnimationFrame)
       loaded ? fn() : fns.push(fn)
     })
 })
+
 },{}],27:[function(require,module,exports){
 "use strict"
 
@@ -6481,6 +6482,8 @@ function lowerBound(array, value, compare, lo, hi) {
 }
 
 module.exports = lowerBound
+
+
 },{}],30:[function(require,module,exports){
 module.exports=require(15)
 },{}],31:[function(require,module,exports){
