@@ -1,6 +1,6 @@
-module.exports = mesh
+module.exports = faceNormals
 
-function mesh(verts, output) {
+function faceNormals(verts, output) {
   var l = verts.length
   if (!output) output = new Float32Array(l)
 

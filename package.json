@@ -1,5 +1,5 @@
 {
-  "name": "mesh-normals",
+  "name": "face-normals",
   "version": "0.0.0",
   "description": "Given an array of triangles' vertices, return a `Float32Array` of their normal vectors.",
   "main": "index.js",
@@ -9,7 +9,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git://github.com/hughsk/mesh-normals.git"
+    "url": "git://github.com/hughsk/face-normals.git"
   },
   "author": "Hugh Kennedy <hughskennedy@gmail.com> (http://hughskennedy.com/)",
   "license": "MIT",

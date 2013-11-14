@@ -1,20 +1,20 @@
-# mesh-normals [![experimental](http://hughsk.github.io/stability-badges/dist/experimental.svg)](http://github.com/hughsk/stability-badges) #
+# face-normals [![experimental](http://hughsk.github.io/stability-badges/dist/experimental.svg)](http://github.com/hughsk/stability-badges) #
 
 Given an array of triangles' vertices, return a `Float32Array` of their normal
 vectors. Helpful for quickly calculating the the normals of a mesh (assuming
 it's made up of triangles).
 
-[see the demo](http://hughsk.github.io/mesh-normals), and how it compares to
+[see the demo](http://hughsk.github.io/face-normals), and how it compares to
 [`heightmap-mesher`](http://hughsk.github.io/heightmap-mesher)'s, for some
 example usage.
 
 ## Installation ##
 
-[![mesh-normals](https://nodei.co/npm/mesh-normals.png?mini=true)](https://nodei.co/npm/mesh-normals)
+[![face-normals](https://nodei.co/npm/face-normals.png?mini=true)](https://nodei.co/npm/face-normals)
 
 ## Usage ##
 
-### `require('mesh-normals')(triangles, [output])` ###
+### `require('face-normals')(triangles, [output])` ###
 
 Takes an array-like list of `triangles`. Each vertex should take up 3 elements,
 combined into groups of 3 to make each triangle. Optionally, you can pass in
